@@ -1,6 +1,4 @@
-# IMIHCT
-
-IMIHCT: Improved Multi-Stage Image Inpainting with Hybrid CNN and Transformer
+# IMIHCT: Improved Multi-Stage Image Inpainting with Hybrid CNN and Transformer
 
 ## Prerequisites
 - Python 3
