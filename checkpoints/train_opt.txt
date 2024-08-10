@@ -1,0 +1,62 @@
+----------------- Options ---------------
+               batch_size: 10                            
+                    beta1: 0.5                           
+          checkpoints_dir: ./checkpoints                 
+           continue_train: False                         
+                crop_size: 256                           
+                 dataroot: ./autodl-tmp/LGNet/LGNet-LWGATE-CA-SWB-RDB/datasets/celebHQ/train/CelebA-HQ-7500/	[default: None]
+             dataset_mode: celeb                         
+                direction: AtoB                          
+              display_env: main                          
+             display_freq: 400                           
+               display_id: 0                             	[default: 1]
+            display_ncols: 4                             
+             display_port: 8097                          
+           display_server: http://localhost              
+          display_winsize: 256                           
+                    epoch: latest                        
+              epoch_count: 1                             
+                 gan_mode: lsgan                         	[default: nogan]
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 4                             	[default: 3]
+                  isTrain: True                          	[default: None]
+                  is_mask: True                          
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+                       lr: 0.0002                        
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+                    model: pix2pixglg                    	[default: cycle_gan]
+                 n_epochs: 100                           
+           n_epochs_decay: 100                           
+               n_layers_D: 3                             
+                     name: celebHQ7500_48_T-former       	[default: experiment_name]
+                      ndf: 64                            
+                     netD: snpatch                       	[default: basic]
+                     netG: unet_256                      
+                    netG1: unet_256                      
+                    netG2: resnet_4blocks                
+                    netG3: unet256                       
+                      ngf: 64                            
+               no_dropout: True                          
+                  no_flip: False                         
+                  no_html: False                         
+                     norm: batch                         
+              num_threads: 10                            
+                output_nc: 3                             
+                    phase: train                         
+                pool_size: 50                            
+                powerbase: 4                             
+               preprocess: resize                        
+               print_freq: 100                           
+             save_by_iter: False                         
+          save_epoch_freq: 1                             
+         save_latest_freq: 5000                          
+           serial_batches: False                         
+                   suffix:                               
+         update_html_freq: 1000                          
+                  verbose: False                         
+----------------- End -------------------

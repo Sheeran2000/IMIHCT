@@ -1,0 +1,45 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 10                            
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: datasets/CelebA-HQ-100/       	[default: None]
+             dataset_mode: celeb                         
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                 gan_mode: nogan                         
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 4                             	[default: 3]
+                  isTrain: False                         	[default: None]
+                  is_mask: True                          
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: pix2pixglg                    	[default: test]
+               n_layers_D: 3                             
+                     name: celebHQ7500_48_T-former       	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: unet_256                      
+                    netG1: unet_256                      
+                    netG2: resnet_4blocks                
+                    netG3: unet256                       
+                      ngf: 64                            
+               no_dropout: True                          
+                  no_flip: False                         
+                     norm: batch                         
+                 num_test: 50                            
+              num_threads: 10                            
+                output_nc: 3                             
+                    phase: test                          
+                powerbase: 4                             
+               preprocess: resize                        
+              results_dir: ./results/                    
+           serial_batches: False                         
+                   suffix:                               
+                  verbose: False                         
+----------------- End -------------------
